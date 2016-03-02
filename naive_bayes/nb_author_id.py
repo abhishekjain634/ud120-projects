@@ -36,7 +36,7 @@ t0=time()
 pred = clf.predict(features_test)
 print "prediction time:",round(time()-t0,3),"s"
 
-print accuracy_score(labels_test, pred)
+print "Accuracy of GaussianNB:",accuracy_score(labels_test, pred)
 
 #########################################################
 
